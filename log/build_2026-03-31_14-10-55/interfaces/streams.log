@@ -1,0 +1,338 @@
+[0.010s] Invoking command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.369s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.470s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.784s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.790s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.324s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.868s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.871s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.899s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.900s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.900s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.900s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.920s] -- Found PythonExtra: .so  
+[2.033s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.064s] -- Added test 'lint_cmake' to check CMake code style
+[2.066s] -- Added test 'xmllint' to check XML markup files
+[2.070s] -- Configuring done
+[2.114s] -- Generating done
+[2.133s] -- Build files have been written to: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces
+[2.144s] Invoked command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces
+[2.146s] Invoking command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces -- -j8 -l8
+[2.188s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.198s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.198s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.218s] [  6%] Built target ament_cmake_python_copy_interfaces
+[2.728s] running egg_info
+[2.730s] creating interfaces.egg-info
+[2.731s] writing interfaces.egg-info/PKG-INFO
+[2.731s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[2.732s] writing top-level names to interfaces.egg-info/top_level.txt
+[2.732s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.736s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.737s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.805s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[2.906s] [  6%] Built target interfaces__rs
+[3.345s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/position__functions.c.o[0m
+[3.345s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_last_positions__functions.c.o[0m
+[3.346s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/navigation__functions.c.o[0m
+[3.421s] [ 12%] Built target interfaces__cpp
+[3.441s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.442s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.443s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.620s] [ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[3.686s] [ 20%] Built target interfaces__rosidl_generator_c
+[3.703s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.703s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.706s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.228s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/position__type_support.cpp.o[0m
+[4.234s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/get_last_positions__type_support.cpp.o[0m
+[4.238s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/navigation__type_support.cpp.o[0m
+[4.729s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/position__type_support.cpp.o[0m
+[4.853s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/get_last_positions__type_support.cpp.o[0m
+[4.865s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/position__type_support.cpp.o[0m
+[4.964s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/navigation__type_support.cpp.o[0m
+[5.036s] [ 43%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/position__type_support.c.o[0m
+[5.111s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[5.128s] [ 47%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/get_last_positions__type_support.c.o[0m
+[5.128s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/get_last_positions__type_support.cpp.o[0m
+[5.132s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/navigation__type_support.cpp.o[0m
+[5.137s] [ 54%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[5.220s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/position__type_support_c.cpp.o[0m
+[5.241s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/navigation__type_support.c.o[0m
+[5.249s] [ 58%] Built target interfaces__rosidl_typesupport_c
+[5.268s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/get_last_positions__type_support.cpp.o[0m
+[5.396s] [ 62%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[5.506s] [ 62%] Built target interfaces__rosidl_typesupport_introspection_c
+[5.545s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/get_last_positions__type_support_c.cpp.o[0m
+[5.973s] [ 66%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[6.143s] [ 66%] Built target interfaces__rosidl_typesupport_cpp
+[6.163s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/navigation__type_support.cpp.o[0m
+[6.163s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/navigation__type_support_c.cpp.o[0m
+[6.848s] [ 72%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.988s] [ 72%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[7.026s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.151s] [ 75%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[7.333s] [ 77%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.430s] [ 77%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[7.452s] [ 77%] Built target interfaces
+[7.473s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.854s] [ 79%] Built target interfaces__py
+[8.878s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_navigation_s.c.o[0m
+[8.878s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_position_s.c.o[0m
+[8.878s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_get_last_positions_s.c.o[0m
+[9.104s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[9.158s] [ 87%] Built target interfaces__rosidl_generator_py
+[9.182s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.182s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.183s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.378s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.387s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.392s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.438s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[9.445s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.453s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[9.471s] Invoked command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces -- -j8 -l8
+[9.484s] Invoking command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces
+[9.496s] -- Install configuration: ""
+[9.496s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[9.496s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.496s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/navigation.h
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__struct.h
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.h
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__functions.h
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__functions.c
+[9.497s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.498s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/get_last_positions.h
+[9.498s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.498s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__functions.h
+[9.499s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.h
+[9.499s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__struct.h
+[9.499s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__functions.c
+[9.499s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.499s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/position.h
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.c
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.h
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.h
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.h
+[9.500s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/library_path.sh
+[9.501s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/library_path.dsv
+[9.501s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[9.502s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.502s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_c.h
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.502s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_fastrtps_c.h
+[9.502s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.503s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.503s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[9.503s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.503s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[9.503s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.503s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.503s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.503s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.503s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.c
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_introspection_c.h
+[9.504s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.504s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_introspection_c.h
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.c
+[9.504s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.504s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.c
+[9.504s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.505s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[9.505s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.505s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[9.505s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[9.506s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.506s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.506s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.506s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.hpp
+[9.506s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__builder.hpp
+[9.506s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__traits.hpp
+[9.506s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__struct.hpp
+[9.506s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/navigation.hpp
+[9.507s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/get_last_positions.hpp
+[9.507s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__traits.hpp
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.hpp
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__struct.hpp
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__builder.hpp
+[9.507s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.507s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.508s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/position.hpp
+[9.508s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.508s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__traits.hpp
+[9.508s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__builder.hpp
+[9.508s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.hpp
+[9.508s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.hpp
+[9.508s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.508s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.508s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[9.509s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.509s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[9.509s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.509s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.509s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[9.510s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[9.510s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.510s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.510s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces
+[9.510s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action
+[9.510s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail
+[9.510s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.cpp
+[9.510s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_introspection_cpp.hpp
+[9.511s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv
+[9.511s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail
+[9.511s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_introspection_cpp.hpp
+[9.511s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.cpp
+[9.511s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg
+[9.511s] -- Up-to-date: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail
+[9.511s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.cpp
+[9.511s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[9.511s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[9.512s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.512s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[9.512s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[9.512s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/pythonpath.sh
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.513s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_navigation_s.c
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_navigation.py
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py
+[9.514s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_last_positions.py
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_last_positions_s.c
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.515s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[9.516s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_position.py
+[9.516s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_position_s.c
+[9.516s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[9.516s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.517s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.517s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[9.517s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[9.590s] Listing '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[9.590s] Listing '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_navigation.py'...
+[9.590s] Listing '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_position.py'...
+[9.590s] Listing '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[9.590s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[9.591s] Compiling '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_last_positions.py'...
+[9.596s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.597s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.597s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.598s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.598s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.598s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.598s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[9.599s] -- Set runtime path of "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[9.599s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/ament_index/resource_index/rust_packages/interfaces
+[9.599s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust
+[9.599s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/build.rs
+[9.599s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/action
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/action/rmw.rs
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/lib.rs
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/action.rs
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/msg.rs
+[9.600s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/srv
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/srv/rmw.rs
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/srv.rs
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/msg
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/src/msg/rmw.rs
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/rust/Cargo.toml
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/msg/Position.idl
+[9.601s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/srv/GetLastPositions.idl
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/action/Navigation.idl
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/msg/Position.msg
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/srv/GetLastPositions.srv
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/srv/GetLastPositions_Request.msg
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/srv/GetLastPositions_Response.msg
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/action/Navigation.action
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[9.602s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/path.sh
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/environment/path.dsv
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/local_setup.bash
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/local_setup.sh
+[9.603s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/local_setup.zsh
+[9.604s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/local_setup.dsv
+[9.604s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/package.dsv
+[9.604s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[9.604s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[9.604s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[9.605s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.606s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[9.606s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.606s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.606s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.606s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[9.607s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.608s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[9.609s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[9.609s] -- Installing: /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/install/interfaces/share/interfaces/package.xml
+[9.612s] Invoked command in '/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Navigation.action
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/Position.idl"
+
+module interfaces {
+  module action {
+    struct Navigation_Goal {
+      interfaces::msg::Position end_position;
+    };
+    struct Navigation_Result {
+      boolean success;
+    };
+    struct Navigation_Feedback {
+      float direction;
+    };
+  };
+};

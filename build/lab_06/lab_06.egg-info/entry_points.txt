@@ -1,0 +1,5 @@
+[console_scripts]
+circular_scanner = qbot_kinematics.circular_scanner:main
+navigation_server = lab_06.navigation_server:main
+qbot_controller = lab_06.qbot_controller:main
+

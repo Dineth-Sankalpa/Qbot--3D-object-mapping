@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interfaces__py",
+		"source" : "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/build/interfaces/interfaces__py"
+	}
+}

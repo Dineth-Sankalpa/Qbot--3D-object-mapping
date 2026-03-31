@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/src/interfaces:msg/Position.msg",
+    "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/src/interfaces:srv/GetLastPositions.srv",
+    "/home/sanjuna/Desktop/FP_Robotics_and_Automation/Qbot--3D-object-mapping/src/interfaces:action/Navigation.action"
+  ]
+}
