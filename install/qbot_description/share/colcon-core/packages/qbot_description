@@ -1,1 +1,0 @@
-controller_manager:diff_drive_controller:gazebo_ros2_control:geometry_msgs:ign_ros2_control:interfaces:joint_state_broadcaster:rclpy:robot_state_publisher:ros2_control:ros2_controllers:ros_gz_bridge:ros_gz_sim:rviz2:tf2_ros:urdf:xacro

@@ -1,1 +1,0 @@
-int32 num_positions

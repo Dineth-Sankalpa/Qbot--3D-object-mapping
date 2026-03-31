@@ -35,38 +35,23 @@
 
     <include>
       <uri>qbot.sdf</uri>
-      <pose>0 0 0.1 0 0 0</pose>
+      <pose>1.5 0 0.1 0 0 1.570796</pose>
     </include>
 
-    <model name="box_1">
-      <pose>2 2 0.5 0 0 0</pose>
+    <model name="target_object">
+      <static>true</static>
+      <pose>0 0 0.25 0 0 0</pose>
       <link name="link">
-        <collision name="c"><geometry><box><size>1 1 1</size></box></geometry></collision>
-        <visual name="v"><geometry><box><size>1 1 1</size></box></geometry></visual>
-      </link>
-    </model>
-    
-    <model name="box_2">
-      <pose>-2 2 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="c"><geometry><box><size>1 1 1</size></box></geometry></collision>
-        <visual name="v"><geometry><box><size>1 1 1</size></box></geometry></visual>
-      </link>
-    </model>
-    
-    <model name="box_3">
-      <pose>2 -2 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="c"><geometry><box><size>1 1 1</size></box></geometry></collision>
-        <visual name="v"><geometry><box><size>1 1 1</size></box></geometry></visual>
-      </link>
-    </model>
-    
-    <model name="box_4">
-      <pose>-2 -2 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="c"><geometry><box><size>1 1 1</size></box></geometry></collision>
-        <visual name="v"><geometry><box><size>1 1 1</size></box></geometry></visual>
+        <collision name="c">
+          <geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+        </collision>
+        <visual name="v">
+          <geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+          <material>
+            <ambient>0.1 0.1 0.8 1</ambient>
+            <diffuse>0.1 0.1 0.8 1</diffuse>
+          </material>
+        </visual>
       </link>
     </model>
 
