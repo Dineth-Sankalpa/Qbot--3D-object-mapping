@@ -44,7 +44,7 @@ To run this simulation, you need the following installed on an Ubuntu 22.04 syst
 ## 🚀 Build & Installation
 
 1. Clone the repository:
-`git clone `
+`git clone https://github.com/IntellisenseLab/final-project-slam.git`
 cd Qbot--3D-object-mapping/simulation
 
 2. Build the workspace:
