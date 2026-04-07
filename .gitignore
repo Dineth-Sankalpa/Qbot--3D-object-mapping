@@ -1,0 +1,13 @@
+[200~# ROS 2 workspaces
+build/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS / Editor files
+.vscode/
+.DS_Store~
+eof
