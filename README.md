@@ -23,8 +23,12 @@ This project features a ROS 2 based differential-drive robot (Qbot) designed to 
 
 ---
 
-![Simulation View](media/simulation.png)
+## 📷 System Visualization
 
+![Simulation View](media/simulation.png)
+> *Above: The captured 3D point cloud of the target object visualized in RViz during the autonomous orbiting phase.*
+
+---
 
 ## 🛠️ Prerequisites
 To run this simulation, you need the following installed on an Ubuntu 22.04 system:
@@ -72,6 +76,8 @@ Bash
 
 Qbot--3D-object-mapping/
 │
+├── media/                       # images and videos of the simulations
+├── weekly_reports/              # weekly reports 
 ├── simulation/                  # Main ROS 2 Workspace
 │   ├── src/
 │   │   └── qbot_scanner/        # Custom Python Package
