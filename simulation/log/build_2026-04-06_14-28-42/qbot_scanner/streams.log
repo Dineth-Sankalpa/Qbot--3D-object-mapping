@@ -1,0 +1,36 @@
+[0.694s] Invoking command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/src/qbot_scanner': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_scanner build --build-base /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build install --record /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.844s] creating ../../build/qbot_scanner/qbot_scanner.egg-info
+[0.844s] writing ../../build/qbot_scanner/qbot_scanner.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../build/qbot_scanner/qbot_scanner.egg-info/dependency_links.txt
+[0.844s] writing entry points to ../../build/qbot_scanner/qbot_scanner.egg-info/entry_points.txt
+[0.844s] writing requirements to ../../build/qbot_scanner/qbot_scanner.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/qbot_scanner/qbot_scanner.egg-info/top_level.txt
+[0.845s] writing manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+[0.846s] reading manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+[0.847s] writing manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+[0.847s] running build
+[0.847s] running build_py
+[0.847s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build
+[0.847s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib
+[0.847s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib/qbot_scanner
+[0.847s] copying qbot_scanner/__init__.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib/qbot_scanner
+[0.847s] copying qbot_scanner/scan_logic.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib/qbot_scanner
+[0.847s] running install
+[0.848s] running install_lib
+[0.848s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner
+[0.848s] copying /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib/qbot_scanner/__init__.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner
+[0.848s] copying /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build/lib/qbot_scanner/scan_logic.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner
+[0.849s] byte-compiling /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner/__init__.py to __init__.cpython-310.pyc
+[0.849s] byte-compiling /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner/scan_logic.py to scan_logic.cpython-310.pyc
+[0.849s] running install_data
+[0.849s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/ament_index
+[0.849s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/ament_index/resource_index
+[0.850s] creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/ament_index/resource_index/packages
+[0.850s] copying resource/qbot_scanner -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/ament_index/resource_index/packages
+[0.850s] copying package.xml -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner
+[0.850s] running install_egg_info
+[0.851s] Copying ../../build/qbot_scanner/qbot_scanner.egg-info to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.867s] writing list of installed files to '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log'
+[0.884s] Invoked command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/src/qbot_scanner' returned '0': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_scanner build --build-base /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build install --record /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log --single-version-externally-managed install_data

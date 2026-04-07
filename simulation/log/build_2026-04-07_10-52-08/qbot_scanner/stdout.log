@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/qbot_scanner/qbot_scanner.egg-info/PKG-INFO
+writing dependency_links to ../../build/qbot_scanner/qbot_scanner.egg-info/dependency_links.txt
+writing entry points to ../../build/qbot_scanner/qbot_scanner.egg-info/entry_points.txt
+writing requirements to ../../build/qbot_scanner/qbot_scanner.egg-info/requires.txt
+writing top-level names to ../../build/qbot_scanner/qbot_scanner.egg-info/top_level.txt
+reading manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+writing manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/qbot_bringup.launch.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/launch
+running install_egg_info
+removing '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/qbot_scanner/qbot_scanner.egg-info to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing scan_logic script to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/qbot_scanner
+writing list of installed files to '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log'

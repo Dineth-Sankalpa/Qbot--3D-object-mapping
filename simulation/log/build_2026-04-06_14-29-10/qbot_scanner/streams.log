@@ -1,0 +1,18 @@
+[0.434s] Invoking command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build --no-deps symlink_data --force
+[0.603s] running develop
+[0.690s] running egg_info
+[0.690s] writing qbot_scanner.egg-info/PKG-INFO
+[0.690s] writing dependency_links to qbot_scanner.egg-info/dependency_links.txt
+[0.691s] writing entry points to qbot_scanner.egg-info/entry_points.txt
+[0.691s] writing requirements to qbot_scanner.egg-info/requires.txt
+[0.691s] writing top-level names to qbot_scanner.egg-info/top_level.txt
+[0.692s] reading manifest file 'qbot_scanner.egg-info/SOURCES.txt'
+[0.693s] writing manifest file 'qbot_scanner.egg-info/SOURCES.txt'
+[0.694s] running build_ext
+[0.694s] Creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot-scanner.egg-link (link to .)
+[0.694s] 
+[0.694s] Installed /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner
+[0.695s] running symlink_data
+[0.695s] symbolically linking /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/resource/qbot_scanner -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/ament_index/resource_index/packages
+[0.695s] symbolically linking /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/package.xml -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner
+[0.717s] Invoked command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner' returned '0': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build --no-deps symlink_data --force

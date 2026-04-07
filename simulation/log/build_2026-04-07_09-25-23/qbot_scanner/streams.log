@@ -1,0 +1,22 @@
+[1.532s] Invoking command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/src/qbot_scanner': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_scanner build --build-base /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build install --record /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log --single-version-externally-managed install_data
+[1.675s] running egg_info
+[1.675s] writing ../../build/qbot_scanner/qbot_scanner.egg-info/PKG-INFO
+[1.675s] writing dependency_links to ../../build/qbot_scanner/qbot_scanner.egg-info/dependency_links.txt
+[1.676s] writing entry points to ../../build/qbot_scanner/qbot_scanner.egg-info/entry_points.txt
+[1.676s] writing requirements to ../../build/qbot_scanner/qbot_scanner.egg-info/requires.txt
+[1.676s] writing top-level names to ../../build/qbot_scanner/qbot_scanner.egg-info/top_level.txt
+[1.677s] reading manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+[1.686s] writing manifest file '../../build/qbot_scanner/qbot_scanner.egg-info/SOURCES.txt'
+[1.686s] running build
+[1.686s] running build_py
+[1.686s] running install
+[1.686s] running install_lib
+[1.687s] running install_data
+[1.688s] copying rviz/config.rviz -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/rviz
+[1.688s] running install_egg_info
+[1.689s] removing '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner-0.0.0-py3.10.egg-info' (and everything under it)
+[1.689s] Copying ../../build/qbot_scanner/qbot_scanner.egg-info to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot_scanner-0.0.0-py3.10.egg-info
+[1.690s] running install_scripts
+[1.705s] Installing scan_logic script to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/qbot_scanner
+[1.706s] writing list of installed files to '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log'
+[1.725s] Invoked command in '/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/src/qbot_scanner' returned '0': PYTHONPATH=/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_scanner build --build-base /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/build install --record /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/install.log --single-version-externally-managed install_data

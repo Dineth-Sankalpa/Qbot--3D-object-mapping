@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing qbot_scanner.egg-info/PKG-INFO
+writing dependency_links to qbot_scanner.egg-info/dependency_links.txt
+writing entry points to qbot_scanner.egg-info/entry_points.txt
+writing requirements to qbot_scanner.egg-info/requires.txt
+writing top-level names to qbot_scanner.egg-info/top_level.txt
+reading manifest file 'qbot_scanner.egg-info/SOURCES.txt'
+writing manifest file 'qbot_scanner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/python3.10/site-packages/qbot-scanner.egg-link (link to .)
+Installing scan_logic script to /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/lib/qbot_scanner
+
+Installed /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner
+running symlink_data
+creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/launch
+symbolically linking /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/launch/qbot_bringup.launch.py -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/launch
+creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/urdf
+symbolically linking /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/urdf/qbot.urdf -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/urdf
+creating /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/worlds
+symbolically linking /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/build/qbot_scanner/worlds/scan_world.world -> /home/netrunner/Documents/Robotics_and_Automation/CA/Qbot--3D-object-mapping/simulation/install/qbot_scanner/share/qbot_scanner/worlds
