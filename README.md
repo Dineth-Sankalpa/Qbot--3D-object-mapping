@@ -23,13 +23,6 @@ This project features a ROS 2 based differential-drive robot (Qbot) designed to 
 
 ---
 
-## 📷 System Visualization
-
-[3D Point Cloud Scan](media/simulation.png) 
-> *Above: The captured 3D point cloud of the target object visualized in RViz during the autonomous orbiting phase.*
-
----
-
 ## 🛠️ Prerequisites
 To run this simulation, you need the following installed on an Ubuntu 22.04 system:
 * **ROS 2 Humble**
