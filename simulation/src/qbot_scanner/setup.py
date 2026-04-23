@@ -30,7 +30,8 @@ setup(
     entry_points={
         'console_scripts': [
             # Added quotes and fixed typo here
-            'scan_logic = qbot_scanner.scan_logic:main' 
+            'scan_logic = qbot_scanner.scan_logic:main',
+            'discrete_scanner = qbot_scanner.discrete_scanner:main'
         ],
     },
 )

@@ -59,6 +59,13 @@ Launch the entire software stack (Gazebo Simulation, Robot State Publisher, Brid
 Bash
 `ros2 launch qbot_scanner qbot_bringup.launch.py`
 
+## 🤖 Hardware Execution (Raspberry Pi 4)
+For physical deployment, the control logic is decoupled from Gazebo:
+1. Launch the Kobuki base and RGB-D camera nodes natively on the Raspberry Pi 4.
+2. On the remote visualization PC, run the discrete scanning node:
+   ```bash
+   ros2 run qbot_scanner discrete_scanner
+
 ## What to Expect:
 
     The Qbot will spawn in the Ignition Gazebo world facing the central object.
